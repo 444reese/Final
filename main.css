@@ -1,0 +1,76 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: darkolivegreen;
+  background-image: url(images/housewillnotstand.png);
+  background-repeat: repeat-y;
+
+}
+
+.wrapper {
+  background-color: darkkhaki;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+header {
+  color: darkolivegreen;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-size: 200%;
+  color: darkolivegreen;
+  background-color: antiquewhite;
+}
+
+.center-column h2 {
+font-size: 150%;
+color: darkolivegreen;
+background-color: antiquewhite;
+}
+
+
+.right-column h3 {
+  font-size: 100%;
+  color: antiquewhite;
+  background-color: darkkhaki;
+  border-radius: 2px solid darkkhaki;
+}
+
+.pic-left {
+  float: left;
+  box-shadow: 1px 1px 3px black;
+  margin: 1rem 1rem 0 0;
+}
+
+nav {
+  text-decoration-color: antiquewhite;
+  background-image: url(images/fabric.jpg.avif);
+  text-transform: uppercase;
+  
+}
+
+nav ul {
+  display: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav li {
+  color: antiquewhite;
+  list-style-type: none;
+  padding: .5rem;
+}
+nav a:hover {
+  background-color: black;
+  border-radius: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  padding: .5rem;
+}
